@@ -1,0 +1,83 @@
+.top-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.top-btns{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.query-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.status{
+    background-color: rgba(0, 128, 0, 0.6);
+    padding: 2px;
+    color: white;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+.ticket-form{
+    box-shadow: 0 5px 5px 5px rgba(128, 128, 128, 0.5);
+    padding: 25px 50px;
+}
+
+.update-btns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.msg-div{
+    position: relative;
+}
+
+.msg{
+    position: absolute;
+    top: -50px;
+    left: 100px;
+}
+
+.spin-div{
+    position: relative;
+}
+
+.spin{
+    position: absolute;
+    top: -20px;
+    left: 530px;
+}
+
+.pagination {
+    margin: 50px auto;
+    display: flex;
+    list-style: none;
+    outline: none;
+  }
+  .pagination > .active > a{
+    background-color: #47ccde ;
+    border-color: #47ccde ;
+    color: #fff;
+  }
+  .pagination > li > a{
+    border: 1px solid #47ccde ;
+    padding: 5px 10px;
+    outline: none;
+    cursor: pointer;
+  }
+  .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+    background-color: #47ccde ;
+    border-color: #47ccde;
+    outline: none ;
+  }
+  .pagination > li > a, .pagination > li > span{
+    color: #47ccde
+  }
+  .pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+    border-radius: unset
+  }
