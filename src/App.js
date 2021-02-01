@@ -311,8 +311,8 @@ useEffect(()=>{
         update={(ticketValue)=>updateTicket(ticketValue)}
         />
       }
-    
-       <div className="d-flex justify-content-center">
+      { !showTicketForm && !showTicket &&
+        <div className="d-flex justify-content-center">
           <ReactPaginate
                   previousLabel={"<"}
                   nextLabel={">"}
@@ -324,9 +324,10 @@ useEffect(()=>{
                   containerClassName={"pagination"}
                   subContainerClassName={"pages pagination"}
                   activeClassName={"active"} />
-       </div>
-      </div>
-    </div>
+        </div>
+      }
+     </div>
+   </div>
   )
 }
 
